@@ -1,0 +1,11 @@
+@import url('./__content-title.css');
+@import url('./__content-subtitle.css');
+@import url('./video.css');
+@import url('./__container/__container.css');
+@import url('./__container/__item/item.css');
+@import url('./__container/__item/__icon-play.css');
+@import url('./__container/__item/__duration.css');
+@import url('./__container/__item/video__title.css');
+@import url('./__container/__item/video__subtitle.css');
+@import url('./__container/video_item_imageof_kamchatka.css');
+@import url('./__container/video_item_imageof_observatory.css');

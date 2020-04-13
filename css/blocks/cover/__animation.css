@@ -1,0 +1,32 @@
+.cover__animation {
+    width: 100%;
+    height: 100%;
+}
+
+.cover__animation::before {
+    content: "";
+    z-index: 2;
+    background-color: #000000;
+    width:100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    transition: all 1s ease-out;
+}
+
+.cover__animation:hover::before {
+    content: "";
+    z-index: 2;
+    background-color: #000000;
+    width:100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    cursor: pointer;
+    opacity: 0.2;
+}

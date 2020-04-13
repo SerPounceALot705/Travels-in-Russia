@@ -1,0 +1,20 @@
+.places__content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+    .places__content {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__content {
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,52 @@
+.places__pharagraph {
+    max-width: 484px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+    margin-top: 0;
+}
+
+.places__pharagraph:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__pharagraph {
+        max-width: 456px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .places__pharagraph {
+        max-width: none;
+        min-width: 352px;
+        font-size: 16px;
+        line-height: 27px;
+        margin-right: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .places__pharagraph {
+        max-width: none;
+        min-width: 343px;
+        font-size: 16px;
+        line-height: 27px;
+        margin: 32px 16px 24px 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__pharagraph {
+        max-width: none;
+        font-size: 16px;
+        line-height: 27px;
+        margin: 24px 16px 24px 16px;
+    }
+}

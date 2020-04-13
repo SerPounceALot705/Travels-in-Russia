@@ -1,0 +1,19 @@
+.intro__content-row_text-author {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 283px;
+    height: 25px;
+}
+
+.intro__content-row_text-author p {
+    margin:0;
+    font-weight: normal;
+}
+
+.intro__content-row_text-author p span {
+    font-weight: bold;
+} 

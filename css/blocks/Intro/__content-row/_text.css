@@ -1,0 +1,42 @@
+.intro__content-row_text {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 683px;
+    margin-right: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .intro__content-row_text {
+        max-width: 792px;
+        min-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .intro__content-row_text {
+        max-width: 768px;
+        min-width: 343px;
+        font-size: 14px;
+        width: 100%;
+        line-height: 24px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__content-row_text {
+        max-width: 425px;
+        min-width: 288px;
+        font-size: 14px;
+        line-height: 27px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

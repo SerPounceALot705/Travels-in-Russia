@@ -1,0 +1,37 @@
+.video__icon-play {
+    position: absolute;
+    height: 41px;
+    width: 41px;
+    top: 30px;
+    left: 30px;
+    background-image: url('../../../../../images/__icon_play.png');
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.video__icon-play:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .video__icon-play {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .video__icon-play {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .video__icon-play {
+        top: 16px;
+        left: 16px;
+    }
+}

@@ -1,0 +1,11 @@
+@import url('./blocks/header/header-imports.css');
+@import url('page.css');
+@import url('./blocks/lead/lead-imports.css');
+@import url('./blocks/Intro/intro-imports.css');
+@import url('./blocks/photo-grid/photo-grid-imports.css');
+@import url('./blocks/places/places-imports.css');
+@import url('./blocks/video/video-imports.css');
+@import url('./blocks/comments/comments-imports.css');
+@import url('./blocks/cover/cover-imports.css');
+@import url('./blocks/footer/footer-imports.css');
+@import url('../fonts/Inter (web)/inter.css');

@@ -1,0 +1,11 @@
+@import url('./__place/place.css');
+@import url('./__place/__header/__header.css');
+@import url('./__place/__header/__title.css');
+@import url('./__place/__header/__website/website.css');
+@import url('./__place/__header/__website/places__url-heding.css');
+@import url('./__place/__header/__website/places__url.css');
+@import url('./__place/__content/__content.css');
+@import url('./__place/__content/__image.css');
+@import url('./__place/__content/__pharagraph.css');
+
+

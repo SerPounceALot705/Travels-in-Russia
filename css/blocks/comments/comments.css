@@ -1,0 +1,27 @@
+.comments {
+    max-width: 1184px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 102px auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .comments {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .comments {
+        max-width: 928px;
+        min-width: 660px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .comments {
+        max-width: 660px;
+        min-width: 343px;
+    }
+}

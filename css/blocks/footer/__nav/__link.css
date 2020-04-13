@@ -1,0 +1,47 @@
+.footer__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-right: 18px;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s linear;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+    .footer__link {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__link {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 0;
+    }
+}
