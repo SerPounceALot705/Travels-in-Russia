@@ -1,3 +1,3 @@
-import './css/index.css';
+import './css/main.css';
 
 console.log('hello!');

@@ -38,7 +38,7 @@ module.exports = {
             },
             {
                 test: /\.(eot|ttf|woff|woff2)$/,
-                loader: 'file-loader?name=./vendor/[name].[ext]'
+                loader: 'file-loader?name=./css/vendor/[name].[ext]'
             }
         ]
     },
@@ -49,7 +49,8 @@ module.exports = {
             filename: 'index.html'
         }),
         new MiniCssExtractPlugin({
-            filename: './css/index.[contenthash].css'
+            filename: './[name].[contenthash].css',
+            chunkFilename: './[id].[contenthash].css',
         }),
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
